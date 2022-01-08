@@ -11,6 +11,9 @@
 		240912A4278965AF003185E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240912A3278965AF003185E2 /* ContentView.swift */; };
 		240912A6278965AF003185E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240912A5278965AF003185E2 /* Assets.xcassets */; };
 		240912A9278965AF003185E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240912A8278965AF003185E2 /* Preview Assets.xcassets */; };
+		240912B0278965DA003185E2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 240912AF278965DA003185E2 /* GameScene.sks */; };
+		240912B22789677F003185E2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240912B12789677F003185E2 /* GameScene.swift */; };
+		24D413D927898F9D00401669 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D413D827898F9D00401669 /* CGPoint+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		240912A3278965AF003185E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		240912A5278965AF003185E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		240912A8278965AF003185E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		240912AF278965DA003185E2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		240912B12789677F003185E2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		24D413D827898F9D00401669 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				240912A3278965AF003185E2 /* ContentView.swift */,
 				240912A5278965AF003185E2 /* Assets.xcassets */,
 				240912A7278965AF003185E2 /* Preview Content */,
+				240912AF278965DA003185E2 /* GameScene.sks */,
+				240912B12789677F003185E2 /* GameScene.swift */,
+				24D413D827898F9D00401669 /* CGPoint+Extensions.swift */,
 			);
 			path = VirtualJoystick;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				240912A9278965AF003185E2 /* Preview Assets.xcassets in Resources */,
+				240912B0278965DA003185E2 /* GameScene.sks in Resources */,
 				240912A6278965AF003185E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240912B22789677F003185E2 /* GameScene.swift in Sources */,
 				240912A4278965AF003185E2 /* ContentView.swift in Sources */,
+				24D413D927898F9D00401669 /* CGPoint+Extensions.swift in Sources */,
 				240912A2278965AE003185E2 /* VirtualJoystickApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,16 +6,13 @@
 //
 
 import SwiftUI
+import SpriteKit
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
+    let scene = SKScene(fileNamed: "GameScene") as! GameScene
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var body: some View {
+        SpriteView(scene: scene)
+            .ignoresSafeArea()
     }
 }
